@@ -1,0 +1,17 @@
+footer {
+  background-color: $primary-color;
+  section {
+      color: pink;
+      padding: 20px 0;
+
+      .button-link {
+          @include buttonLink;
+      }
+
+      .normal-link {
+          margin: 20px;
+          @extend .button-link;
+          background-color: red;
+      }
+  }
+}

@@ -1,0 +1,9 @@
+$primary-color: #fff;
+
+mixin buttonLink {
+  text-decoration: dotted;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: yellowgreen;
+  color: white;
+}
